@@ -5,7 +5,12 @@ ruby '3.0.0'
 
 gem 'rubocop', '~>0.81.0'
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
+#WINDOWS Gems That don't play well with nix
+platforms :mswin do 
+  gem "wdm", :group => [:development, :test]
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.2', '>= 6.1.2.1'
 # Use sqlite3 as the database for Active Record
