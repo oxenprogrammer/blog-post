@@ -3,7 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
 
-gem 'rubocop', '~>0.81.0'
+
+gem 'rubocop', require: false
 
 # gem 'wdm', '>= 0.1.0'
 #WINDOWS Gems That don't play well with nix
