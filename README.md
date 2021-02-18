@@ -1,24 +1,38 @@
-# README
+# Simple Rails Blog App
+ This is an implementation of a simple blog app in rails. This app utilizes CRUD operations as its main driving force.
+# This code includes the utilization of 
+- ruby version 3.0
+- node version 14.15.5
+- rails version 6.1.2.1
+- yarn version 1.22.10
+- bundler version 2.2.10
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+- Ruby On Rails
+- MVC software design pattern
 
-Things you may want to cover:
+## Getting Started
+- Open the terminal command line in your IDE.
+- Install the versions of rails, ruby,  and the package managers mentioned above.
+- Make sure to have git installed also.
 
-* Ruby version
+## Instructions
+- Perform a `git pull` from this repo.
+- Run `rails server`.
+- Go to localhost/3000 in your browser. The UI for the blog should appear on your screen.
 
-* System dependencies
+## AUTHOR
+👤 **Paul Clue**
+- GitHub: [@Paul-Clue](https://github.com/Paul-Clue/) 
+- LinkedIn: [Paul-Clue](https://www.linkedin.com/in/paul-clue-5136a01b1/)
 
-* Configuration
+## AUTHOR
+👤 **Emanuel Okello**
 
-* Database creation
+## 🤝 Contributing
 
-* Database initialization
+Contributions, issues, and feature requests are welcome!
 
-* How to run the test suite
+## Show your support
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Give a ⭐️ if you like this project!
